@@ -1,0 +1,8 @@
+streamlit
+openai>=1.2.0,<2.0.0
+transformers
+torch
+Pillow
+PyMuPDF
+accelerate
+sentencepiece
