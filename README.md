@@ -1,20 +1,37 @@
-# Smart Content Studio ✨
+# 🤖 Smart Content Studio
 
-A modular, AI-powered content creation assistant built with OpenAI and Streamlit. Includes:
+An AI-powered content creation assistant built with **Streamlit** and **OpenAI**, designed to help you generate high-quality content with ease.
 
-- Story Generator
-- Resume & Cover Letter Writer
-- PDF Q&A from notes
-- YouTube Title/Description Generator
-- Instagram Caption Generator
-- Image Captioning (BLIP)
+👉 **Live App**: [Launch on Streamlit](https://smart-content-studio.streamlit.app)  
+*(Replace with your actual Streamlit app URL if different)*
 
-## 🚀 How to Use (on Hugging Face)
+---
 
-1. Clone or deploy via Hugging Face Spaces
-2. Add your OpenAI key in Space Settings → Secrets:
+## 🧠 Features
 
-OPENAI_API_KEY = "sk-****"
+- 📖 **Story Generator** — Creative storytelling from any prompt  
+- 📄 **Resume & Cover Letter Writer** — Instantly generate professional documents  
+- 📚 **PDF Q&A Assistant** — Ask questions about uploaded PDF notes  
+- 🎥 **YouTube Title & Description Generator** — SEO-friendly video content  
+- 🖼️ **Image Captioning** — Generate captions using BLIP from an uploaded image  
+- 📸 **Instagram Caption Assistant** — Get social-ready captions with emojis and hashtags  
 
-3. The app will launch automatically!
-# smart-content-studio
+---
+
+## 🧑‍💻 Tech Stack
+
+- **Frontend**: [Streamlit](https://streamlit.io/)  
+- **Backend**: OpenAI GPT via [`openai` Python SDK (v1)](https://pypi.org/project/openai)  
+- **PDF Parsing**: [PyMuPDF](https://pymupdf.readthedocs.io/en/latest/)  
+- **Image Captioning**: [Salesforce BLIP](https://huggingface.co/Salesforce/blip-image-captioning-base)  
+- **Hosting**: [Streamlit Cloud](https://streamlit.io/cloud)
+
+---
+
+## 🚀 Run Locally
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/smart-content-studio.git
+cd smart-content-studio
