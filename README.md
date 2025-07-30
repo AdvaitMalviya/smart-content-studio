@@ -2,9 +2,6 @@
 
 An AI-powered content creation assistant built with **Streamlit** and **OpenAI**, designed to help you generate high-quality content with ease.
 
-👉 **Live App**: [Launch on Streamlit](https://smart-content-studio.streamlit.app)  
-*(Replace with your actual Streamlit app URL if different)*
-
 ---
 
 ## 🧠 Features
